@@ -17,6 +17,9 @@ div::-webkit-scrollbar {
 .menu-page {
   display: none;
 }
+.active1 {
+  border-bottom: 1px solid #000000;
+}
 .container-1 {
   width: 100vw;
   height: auto;
@@ -358,6 +361,7 @@ div::-webkit-scrollbar {
   .menu-page {
     background-color: #101010;
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -399,6 +403,9 @@ div::-webkit-scrollbar {
   .item-m-1:hover,
   .item-m-2:hover,
   .item-m-3:hover {
+    color: #f2994a;
+  }
+  .item-m-3 {
     color: #f2994a;
   }
   .nav-action-m {
